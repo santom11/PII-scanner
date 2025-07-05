@@ -1,6 +1,6 @@
 # PII Scanner (Presidio-Based)
 
-A modular PII scanning and anonymization tool built in Python using Microsoft Presidio. Designed to start with unstructured `.txt` files and scale to PDF/CSV/Confluence inputs later.
+A modular PII scanning and anonymization tool built in Python using Microsoft Presidio. Designed for unstructured `.txt` files
 
 ### 1. Command-Line Scanner
 ## Run CLI:
