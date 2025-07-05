@@ -1,0 +1,19 @@
+
+    <html>
+    <head><title>PII Scan Report</title></head>
+    <body>
+        <h1>PII Detection Report</h1>
+        <h2>Original Text</h2>
+        <pre>Rahul Mehta, PAN: APLPM4356H, Phone: +91-9876543210</pre>
+
+        <h2>Anonymized Text</h2>
+        <pre>Rahul Mehta, PAN: <INDIA_PAN>, Phone: <PHONE_INDIA></pre>
+
+        <h2>Detected Entities</h2>
+        <table border="1">
+            <tr><th>Entity</th><th>Matched Text</th><th>Confidence</th></tr>
+            <tr><td>INDIA_PAN</td><td>APLPM4356H</td><td>0.95</td></tr><tr><td>PHONE_INDIA</td><td>+91-9876543210</td><td>0.90</td></tr><tr><td>ACCOUNT_NUMBER</td><td>9876543210</td><td>0.88</td></tr><tr><td>DEVICE_ID</td><td>APLPM4356H</td><td>0.75</td></tr><tr><td>DEVICE_ID</td><td>91-9876543210</td><td>0.75</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>435</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>6</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>91</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>987</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>654</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>321</td><td>0.70</td></tr><tr><td>TRANSACTION_AMOUNT</td><td>0</td><td>0.70</td></tr>
+        </table>
+    </body>
+    </html>
+    

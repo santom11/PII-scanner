@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PII Detection Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; }
+    h1 { color: #2C3E50; }
+    h2 { color: #34495E; margin-top: 30px; }
+    pre { background: #F8F8F8; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    th, td { border: 1px solid #DDD; padding: 10px; text-align: left; }
+    th { background-color: #2980B9; color: white; }
+    tr:nth-child(even) { background-color: #F2F2F2; }
+    .entity-label { font-weight: bold; }
+    .entity-row-PERSON { background-color: #fdecea; }
+    .entity-row-EMAIL { background-color: #eafaf1; }
+    .entity-row-INDIA_PAN { background-color: #fef9e7; }
+    /* Add more entity-specific colors as needed */
+    footer { margin-top: 40px; font-size: 0.9em; color: #7F8C8D; }
+  </style>
+</head>
+<body>
+  <h1>🔒 PII Detection & Anonymization Report</h1>
+  <p><em>Generated on: 2025-07-05T08:39:18.531213 UTC</em></p>
+
+  <h2>Entity Distribution Chart</h2>
+  <canvas id="entityChart" width="400" height="200"></canvas>
+  <script>
+    const ctx = document.getElementById('entityChart').getContext('2d');
+    const chartInfo = {"labels": ["INDIA_PAN", "PHONE_INDIA", "ACCOUNT_NUMBER", "DEVICE_ID", "TRANSACTION_AMOUNT"], "counts": [1, 1, 1, 2, 7]};
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: chartInfo.labels,
+        datasets: [{
+          label: '# of Entities',
+          data: chartInfo.counts,
+          backgroundColor: [
+            'rgba(231, 76, 60, 0.6)',
+            'rgba(46, 204, 113, 0.6)',
+            'rgba(241, 196, 15, 0.6)',
+            'rgba(52, 152, 219, 0.6)',
+            'rgba(155, 89, 182, 0.6)',
+            'rgba(26, 188, 156, 0.6)'
+          ],
+          borderColor: [
+            'rgba(231, 76, 60, 1)',
+            'rgba(46, 204, 113, 1)',
+            'rgba(241, 196, 15, 1)',
+            'rgba(52, 152, 219, 1)',
+            'rgba(155, 89, 182, 1)',
+            'rgba(26, 188, 156, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: { scales: { y: { beginAtZero: true } } }
+    });
+  </script>
+
+  <h2>Original Text</h2>
+  <pre>Rahul Mehta, PAN: APLPM4356H, Phone: +91-9876543210</pre>
+
+  <h2>Anonymized Text</h2>
+  <pre>Rahul Mehta, PAN: <INDIA_PAN>, Phone: <PHONE_INDIA></pre>
+
+  <h2>Detected PII Entities</h2>
+  <table>
+    <tr><th>Entity Type</th><th>Text</th><th>Confidence</th></tr>
+    <tr class="entity-row-INDIA_PAN"><td class="entity-label">INDIA_PAN</td><td>APLPM4356H</td><td>0.95</td></tr><tr class="entity-row-PHONE_INDIA"><td class="entity-label">PHONE_INDIA</td><td>+91-9876543210</td><td>0.90</td></tr><tr class="entity-row-ACCOUNT_NUMBER"><td class="entity-label">ACCOUNT_NUMBER</td><td>9876543210</td><td>0.88</td></tr><tr class="entity-row-DEVICE_ID"><td class="entity-label">DEVICE_ID</td><td>APLPM4356H</td><td>0.75</td></tr><tr class="entity-row-DEVICE_ID"><td class="entity-label">DEVICE_ID</td><td>91-9876543210</td><td>0.75</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>435</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>6</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>91</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>987</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>654</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>321</td><td>0.70</td></tr><tr class="entity-row-TRANSACTION_AMOUNT"><td class="entity-label">TRANSACTION_AMOUNT</td><td>0</td><td>0.70</td></tr>
+  </table>
+
+  <h2>Entity Summary</h2>
+  <ul>
+    <li><strong>INDIA_PAN</strong> at positions 18-28</li><li><strong>PHONE_INDIA</strong> at positions 37-51</li><li><strong>ACCOUNT_NUMBER</strong> at positions 41-51</li><li><strong>DEVICE_ID</strong> at positions 18-28</li><li><strong>DEVICE_ID</strong> at positions 38-51</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 23-26</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 26-27</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 38-40</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 41-44</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 44-47</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 47-50</li><li><strong>TRANSACTION_AMOUNT</strong> at positions 50-51</li>
+  </ul>
+
+  <footer>
+    <p>Powered by Microsoft Presidio • Confidential & Proprietary</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,784 @@
+{
+  "timestamp": "2025-07-05T04:20:03.766638",
+  "input_file": "testdata/sample_banking_input.txt",
+  "detected_entities": [
+    {
+      "entity_type": "AADHAAR",
+      "start": 66,
+      "end": 80,
+      "score": 0.98,
+      "text": "2334 5632 9087"
+    },
+    {
+      "entity_type": "AADHAAR",
+      "start": 742,
+      "end": 756,
+      "score": 0.98,
+      "text": "2334 5632 9087"
+    },
+    {
+      "entity_type": "INDIA_PAN",
+      "start": 43,
+      "end": 53,
+      "score": 0.95,
+      "text": "APLPM4356H"
+    },
+    {
+      "entity_type": "INDIA_PAN",
+      "start": 721,
+      "end": 731,
+      "score": 0.95,
+      "text": "APLPM4356H"
+    },
+    {
+      "entity_type": "PHONE_INDIA",
+      "start": 124,
+      "end": 138,
+      "score": 0.9,
+      "text": "+91-9876543210"
+    },
+    {
+      "entity_type": "PHONE_INDIA",
+      "start": 433,
+      "end": 444,
+      "score": 0.9,
+      "text": "09876543211"
+    },
+    {
+      "entity_type": "PHONE_INDIA",
+      "start": 688,
+      "end": 702,
+      "score": 0.9,
+      "text": "+91 9812345670"
+    },
+    {
+      "entity_type": "ACCOUNT_NUMBER",
+      "start": 128,
+      "end": 138,
+      "score": 0.88,
+      "text": "9876543210"
+    },
+    {
+      "entity_type": "ACCOUNT_NUMBER",
+      "start": 278,
+      "end": 290,
+      "score": 0.88,
+      "text": "001234567891"
+    },
+    {
+      "entity_type": "ACCOUNT_NUMBER",
+      "start": 432,
+      "end": 444,
+      "score": 0.88,
+      "text": "009876543211"
+    },
+    {
+      "entity_type": "ACCOUNT_NUMBER",
+      "start": 692,
+      "end": 702,
+      "score": 0.88,
+      "text": "9812345670"
+    },
+    {
+      "entity_type": "IFSC",
+      "start": 302,
+      "end": 313,
+      "score": 0.87,
+      "text": "HDFC0000456"
+    },
+    {
+      "entity_type": "IFSC",
+      "start": 452,
+      "end": 463,
+      "score": 0.87,
+      "text": "ICIC0001209"
+    },
+    {
+      "entity_type": "EMAIL",
+      "start": 88,
+      "end": 116,
+      "score": 0.85,
+      "text": "rahul.mehta@axisbankmail.com"
+    },
+    {
+      "entity_type": "EMAIL",
+      "start": 658,
+      "end": 685,
+      "score": 0.85,
+      "text": "swati.iyer@axisbankmail.com"
+    },
+    {
+      "entity_type": "PASSPORT",
+      "start": 768,
+      "end": 776,
+      "score": 0.85,
+      "text": "N3455667"
+    },
+    {
+      "entity_type": "REFERENCE_ID",
+      "start": 606,
+      "end": 623,
+      "score": 0.8,
+      "text": "CRM-CUST-3421-IND"
+    },
+    {
+      "entity_type": "IP_ADDRESS",
+      "start": 788,
+      "end": 801,
+      "score": 0.8,
+      "text": "103.23.45.201"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 43,
+      "end": 53,
+      "score": 0.75,
+      "text": "APLPM4356H"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 100,
+      "end": 112,
+      "score": 0.75,
+      "text": "axisbankmail"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 125,
+      "end": 138,
+      "score": 0.75,
+      "text": "91-9876543210"
+    },
+    {
+      "entity_type": "POSTAL_CODE_INDIA",
+      "start": 221,
+      "end": 227,
+      "score": 0.75,
+      "text": "400058"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 229,
+      "end": 240,
+      "score": 0.75,
+      "text": "Maharashtra"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 278,
+      "end": 290,
+      "score": 0.75,
+      "text": "001234567891"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 302,
+      "end": 313,
+      "score": 0.75,
+      "text": "HDFC0000456"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 349,
+      "end": 360,
+      "score": 0.75,
+      "text": "Transaction"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 370,
+      "end": 380,
+      "score": 0.75,
+      "text": "2023-09-12"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 432,
+      "end": 444,
+      "score": 0.75,
+      "text": "009876543211"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 452,
+      "end": 463,
+      "score": 0.75,
+      "text": "ICIC0001209"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 465,
+      "end": 475,
+      "score": 0.75,
+      "text": "2023-09-10"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 482,
+      "end": 492,
+      "score": 0.75,
+      "text": "Withdrawal"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 530,
+      "end": 540,
+      "score": 0.75,
+      "text": "2023-08-28"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 606,
+      "end": 623,
+      "score": 0.75,
+      "text": "CRM-CUST-3421-IND"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 624,
+      "end": 636,
+      "score": 0.75,
+      "text": "Relationship"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 669,
+      "end": 681,
+      "score": 0.75,
+      "text": "axisbankmail"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 692,
+      "end": 702,
+      "score": 0.75,
+      "text": "9812345670"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 721,
+      "end": 731,
+      "score": 0.75,
+      "text": "APLPM4356H"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 813,
+      "end": 833,
+      "score": 0.75,
+      "text": "AXIS-BNK-DELL-22-T90"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 877,
+      "end": 890,
+      "score": 0.75,
+      "text": "communication"
+    },
+    {
+      "entity_type": "DEVICE_ID",
+      "start": 934,
+      "end": 944,
+      "score": 0.75,
+      "text": "cross-sell"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 48,
+      "end": 51,
+      "score": 0.7,
+      "text": "435"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 51,
+      "end": 52,
+      "score": 0.7,
+      "text": "6"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 65,
+      "end": 69,
+      "score": 0.7,
+      "text": " 233"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 69,
+      "end": 70,
+      "score": 0.7,
+      "text": "4"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 70,
+      "end": 74,
+      "score": 0.7,
+      "text": " 563"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 74,
+      "end": 75,
+      "score": 0.7,
+      "text": "2"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 75,
+      "end": 79,
+      "score": 0.7,
+      "text": " 908"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 79,
+      "end": 80,
+      "score": 0.7,
+      "text": "7"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 125,
+      "end": 127,
+      "score": 0.7,
+      "text": "91"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 128,
+      "end": 131,
+      "score": 0.7,
+      "text": "987"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 131,
+      "end": 134,
+      "score": 0.7,
+      "text": "654"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 134,
+      "end": 137,
+      "score": 0.7,
+      "text": "321"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 137,
+      "end": 138,
+      "score": 0.7,
+      "text": "0"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 157,
+      "end": 161,
+      "score": 0.7,
+      "text": " 504"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 220,
+      "end": 224,
+      "score": 0.7,
+      "text": " 400"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 224,
+      "end": 227,
+      "score": 0.7,
+      "text": "058"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 277,
+      "end": 281,
+      "score": 0.7,
+      "text": " 001"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 281,
+      "end": 284,
+      "score": 0.7,
+      "text": "234"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 284,
+      "end": 287,
+      "score": 0.7,
+      "text": "567"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 287,
+      "end": 290,
+      "score": 0.7,
+      "text": "891"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 306,
+      "end": 309,
+      "score": 0.7,
+      "text": "000"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 309,
+      "end": 312,
+      "score": 0.7,
+      "text": "045"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 312,
+      "end": 313,
+      "score": 0.7,
+      "text": "6"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 369,
+      "end": 373,
+      "score": 0.7,
+      "text": "\n202"
+    },
+    {
+      "entity_type": "TRANSACTION_DATE",
+      "start": 370,
+      "end": 380,
+      "score": 0.7,
+      "text": "2023-09-12"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 373,
+      "end": 374,
+      "score": 0.7,
+      "text": "3"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 375,
+      "end": 377,
+      "score": 0.7,
+      "text": "09"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 378,
+      "end": 380,
+      "score": 0.7,
+      "text": "12"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 399,
+      "end": 406,
+      "score": 0.7,
+      "text": "\u20b934,000"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 431,
+      "end": 435,
+      "score": 0.7,
+      "text": " 009"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 435,
+      "end": 438,
+      "score": 0.7,
+      "text": "876"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 438,
+      "end": 441,
+      "score": 0.7,
+      "text": "543"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 441,
+      "end": 444,
+      "score": 0.7,
+      "text": "211"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 456,
+      "end": 459,
+      "score": 0.7,
+      "text": "000"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 459,
+      "end": 462,
+      "score": 0.7,
+      "text": "120"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 462,
+      "end": 463,
+      "score": 0.7,
+      "text": "9"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 464,
+      "end": 468,
+      "score": 0.7,
+      "text": "\n202"
+    },
+    {
+      "entity_type": "TRANSACTION_DATE",
+      "start": 465,
+      "end": 475,
+      "score": 0.7,
+      "text": "2023-09-10"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 468,
+      "end": 469,
+      "score": 0.7,
+      "text": "3"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 470,
+      "end": 472,
+      "score": 0.7,
+      "text": "09"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 473,
+      "end": 475,
+      "score": 0.7,
+      "text": "10"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 495,
+      "end": 501,
+      "score": 0.7,
+      "text": "\u20b95,000"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 529,
+      "end": 533,
+      "score": 0.7,
+      "text": "\n202"
+    },
+    {
+      "entity_type": "TRANSACTION_DATE",
+      "start": 530,
+      "end": 540,
+      "score": 0.7,
+      "text": "2023-08-28"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 533,
+      "end": 534,
+      "score": 0.7,
+      "text": "3"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 535,
+      "end": 537,
+      "score": 0.7,
+      "text": "08"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 538,
+      "end": 540,
+      "score": 0.7,
+      "text": "28"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 557,
+      "end": 564,
+      "score": 0.7,
+      "text": "\u20b950,000"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 615,
+      "end": 618,
+      "score": 0.7,
+      "text": "342"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 618,
+      "end": 619,
+      "score": 0.7,
+      "text": "1"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 689,
+      "end": 691,
+      "score": 0.7,
+      "text": "91"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 691,
+      "end": 695,
+      "score": 0.7,
+      "text": " 981"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 695,
+      "end": 698,
+      "score": 0.7,
+      "text": "234"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 698,
+      "end": 701,
+      "score": 0.7,
+      "text": "567"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 701,
+      "end": 702,
+      "score": 0.7,
+      "text": "0"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 726,
+      "end": 729,
+      "score": 0.7,
+      "text": "435"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 729,
+      "end": 730,
+      "score": 0.7,
+      "text": "6"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 741,
+      "end": 745,
+      "score": 0.7,
+      "text": " 233"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 745,
+      "end": 746,
+      "score": 0.7,
+      "text": "4"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 746,
+      "end": 750,
+      "score": 0.7,
+      "text": " 563"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 750,
+      "end": 751,
+      "score": 0.7,
+      "text": "2"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 751,
+      "end": 755,
+      "score": 0.7,
+      "text": " 908"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 755,
+      "end": 756,
+      "score": 0.7,
+      "text": "7"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 769,
+      "end": 772,
+      "score": 0.7,
+      "text": "345"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 772,
+      "end": 775,
+      "score": 0.7,
+      "text": "566"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 775,
+      "end": 776,
+      "score": 0.7,
+      "text": "7"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 787,
+      "end": 794,
+      "score": 0.7,
+      "text": " 103.23"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 795,
+      "end": 800,
+      "score": 0.7,
+      "text": "45.20"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 800,
+      "end": 801,
+      "score": 0.7,
+      "text": "1"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 827,
+      "end": 829,
+      "score": 0.7,
+      "text": "22"
+    },
+    {
+      "entity_type": "TRANSACTION_AMOUNT",
+      "start": 831,
+      "end": 833,
+      "score": 0.7,
+      "text": "90"
+    }
+  ],
+  "anonymized_text": "Customer Name: Mr. Rahul Mehta\nPAN Number: <INDIA_PAN>\nAadhaar No:<TRANSACTION_AMOUNT><AADHAAR>\nEmail: <EMAIL>\nPhone: <PHONE_INDIA>\n\nAddress:\nFlat No.<TRANSACTION_AMOUNT>, Green Meadows,\nOpp. HDFC Bank ATM, Andheri West,\nMumbai -<TRANSACTION_AMOUNT><POSTAL_CODE_INDIA>, <DEVICE_ID>, India\n\nAccount Details:\nAccount No:<TRANSACTION_AMOUNT><ACCOUNT_NUMBER>\nIFSC Code: <IFSC>\nBranch: Andheri West, Mumbai\n\nLast <DEVICE_ID> History:<TRANSACTION_AMOUNT><DEVICE_ID> - IMPS Transfer - <TRANSACTION_AMOUNT> to Mr. S. Krishnan (A/C:<TRANSACTION_AMOUNT><ACCOUNT_NUMBER>, IFSC: <IFSC>)<TRANSACTION_AMOUNT><DEVICE_ID> - ATM <DEVICE_ID> - <TRANSACTION_AMOUNT> - HDFC ATM - Mumbai Central<TRANSACTION_AMOUNT><DEVICE_ID> - NEFT Credit - <TRANSACTION_AMOUNT> from ABC Pvt Ltd\n\nCustomer Reference ID: <REFERENCE_ID>\n<DEVICE_ID> Manager: Swati Iyer (<EMAIL> | <PHONE_INDIA>)\n\nKYC Docs:\nPAN - <INDIA_PAN>\nAadhaar -<TRANSACTION_AMOUNT><AADHAAR>\nPassport - <PASSPORT>\n\nLogin IP:<TRANSACTION_AMOUNT><IP_ADDRESS>\nDevice ID: <DEVICE_ID>\n\nInternal Notes:\nCustomer prefers WhatsApp <DEVICE_ID>. Recently upgraded to HNI status. Flag for <DEVICE_ID>: credit card, demat account.\n"
+}

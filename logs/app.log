@@ -1,0 +1,36 @@
+2025-07-05 15:52:50,047 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,048 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,049 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,050 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,051 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,052 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,053 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,054 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,056 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,056 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,056 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,057 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,057 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:50,057 INFO nlp_engine not provided, creating default.
+2025-07-05 15:52:54,352 INFO Created NLP engine: spacy. Loaded models: ['en']
+2025-07-05 15:52:54,363 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-05 15:52:54,364 INFO [33mPress CTRL+C to quit[0m
+2025-07-05 15:52:54,369 INFO  * Restarting with stat
+2025-07-05 15:52:55,919 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,921 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,921 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,922 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,922 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,922 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,922 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 15:52:55,923 INFO nlp_engine not provided, creating default.
+2025-07-05 15:52:59,274 INFO Created NLP engine: spacy. Loaded models: ['en']
+2025-07-05 15:52:59,286 WARNING  * Debugger is active!
+2025-07-05 15:52:59,289 INFO  * Debugger PIN: 134-557-346

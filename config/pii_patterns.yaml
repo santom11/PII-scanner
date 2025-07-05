@@ -1,0 +1,52 @@
+patterns:
+  - name: "INDIA_PAN"
+    regex: "\\b[A-Z]{5}[0-9]{4}[A-Z]\\b"
+    score: 0.95
+
+  - name: "AADHAAR"
+    regex: "\\b[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}\\b"
+    score: 0.98
+
+  - name: "EMAIL"
+    regex: "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+"
+    score: 0.85
+
+  - name: "PHONE_INDIA"
+    regex: "(\\+91[\\s-]?[6-9][0-9]{9})|(0[6-9][0-9]{9})"
+    score: 0.90
+
+  - name: "POSTAL_CODE_INDIA"
+    regex: "\\b[1-9][0-9]{2}\\s?[0-9]{3}\\b"
+    score: 0.75
+
+  - name: "ACCOUNT_NUMBER"
+    regex: "\\b\\d{9,18}\\b"
+    score: 0.88
+
+  - name: "IFSC"
+    regex: "\\b[A-Z]{4}0[A-Z0-9]{6}\\b"
+    score: 0.87
+
+  - name: "TRANSACTION_DATE"
+    regex: "\\b\\d{4}-\\d{2}-\\d{2}\\b"
+    score: 0.70
+
+  - name: "TRANSACTION_AMOUNT"
+    regex: "[₹Rs]?[\\s]?\\d{1,3}(,\\d{3})*(\\.\\d{2})?"
+    score: 0.70
+
+  - name: "PASSPORT"
+    regex: "\\b[A-PR-WY][0-9]{7}\\b"
+    score: 0.85
+
+  - name: "IP_ADDRESS"
+    regex: "\\b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b"
+    score: 0.80
+
+  - name: "DEVICE_ID"
+    regex: "\\b[A-Z0-9\\-]{10,30}\\b"
+    score: 0.75
+
+  - name: "REFERENCE_ID"
+    regex: "\\bCRM\\-CUST\\-\\d{4}\\-\\w{3}\\b"
+    score: 0.80

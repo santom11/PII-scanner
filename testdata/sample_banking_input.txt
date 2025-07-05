@@ -1,0 +1,34 @@
+Customer Name: Mr. Rahul Mehta
+PAN Number: APLPM4356H
+Aadhaar No: 2334 5632 9087
+Email: rahul.mehta@axisbankmail.com
+Phone: +91-9876543210
+
+Address:
+Flat No. 504, Green Meadows,
+Opp. HDFC Bank ATM, Andheri West,
+Mumbai - 400058, Maharashtra, India
+
+Account Details:
+Account No: 001234567891
+IFSC Code: HDFC0000456
+Branch: Andheri West, Mumbai
+
+Last Transaction History:
+2023-09-12 - IMPS Transfer - ₹34,000 to Mr. S. Krishnan (A/C: 009876543211, IFSC: ICIC0001209)
+2023-09-10 - ATM Withdrawal - ₹5,000 - HDFC ATM - Mumbai Central
+2023-08-28 - NEFT Credit - ₹50,000 from ABC Pvt Ltd
+
+Customer Reference ID: CRM-CUST-3421-IND
+Relationship Manager: Swati Iyer (swati.iyer@axisbankmail.com | +91 9812345670)
+
+KYC Docs:
+PAN - APLPM4356H
+Aadhaar - 2334 5632 9087
+Passport - N3455667
+
+Login IP: 103.23.45.201
+Device ID: AXIS-BNK-DELL-22-T90
+
+Internal Notes:
+Customer prefers WhatsApp communication. Recently upgraded to HNI status. Flag for cross-sell: credit card, demat account.
