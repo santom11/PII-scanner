@@ -1,0 +1,4 @@
+flask
+presidio-analyzer
+presidio-anonymizer
+pyyaml

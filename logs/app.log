@@ -34,3 +34,18 @@
 2025-07-05 15:52:59,274 INFO Created NLP engine: spacy. Loaded models: ['en']
 2025-07-05 15:52:59,286 WARNING  * Debugger is active!
 2025-07-05 15:52:59,289 INFO  * Debugger PIN: 134-557-346
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,978 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO Loaded recognizer: PatternRecognizer
+2025-07-05 17:36:30,979 INFO nlp_engine not provided, creating default.
+2025-07-05 17:36:48,632 INFO Created NLP engine: spacy. Loaded models: ['en']
